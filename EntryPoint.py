@@ -39,8 +39,6 @@ def LRegression(dfIn):
 
 def riskAnalysis(slope, error, avgClose):
     if(error > 0.65 or error < -0.65): # Checks for steady growth based on error
-        print("Error Good")
-        # if(slope/avgClose > 0.015 or slope/avgClose < -0.015): # Checks regression has some movement and price is not stagnant
         return True
     return False
 
