@@ -8,7 +8,7 @@ import datetime
 import matplotlib.pyplot as plt
 from urllib.error import HTTPError
 
-sym = pd.read_csv("C:/Users/dunca/OneDrive/Desktop/MarketAlgorithm/symbols.csv")
+sym = pd.read_csv("symbols.csv")
 myColumns = ['Ticker', 'Slope', 'Error', 'Avg Close', 'Close']
 dfEntryArray = [0, 0, 0]
 finalDF = pd.DataFrame(columns = myColumns)
